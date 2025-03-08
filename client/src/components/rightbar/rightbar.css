@@ -1,0 +1,194 @@
+.rightbar{
+    flex: 3.5;
+  
+}
+
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+
+.rightbar {
+    width: 300px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .widget {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .widget-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .onlineUser {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .onlineImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .onlineName {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .quote {
+    text-align: center;
+    font-style: italic;
+    color: #333;
+  }
+
+  /*rightbar homepage end here*/
+
+  .rightbar {
+    width: 300px;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 10px;
+  }
+  
+  .rightbarTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .rightbarButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .rightbarButton:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .rightbarIcon {
+    font-size: 20px;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .rightbarButton:hover .rightbarIcon {
+    color: white;
+  }
+  
+  .rightbarInfoKey {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .rightbarInfoValue {
+    font-size: 14px;
+    font-weight: bold;
+  }
+ /*rightprofile end here*/  
+  
+
+.rightbarTitle{
+    margin-bottom: 20px;
+}
+
+.rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo{
+    margin-bottom: 30px;
+}
+
+.rightbarInfoItem{
+    margin-bottom: 10px;
+}
+
+.rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+}
+
+.rightbarInfoValue{
+    font-weight: 300;
+}
+
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.rightbarFollowingImg{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.rightbarFollowButton{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rightbarFollowButton:focus{
+    outline: none;
+}

@@ -28,7 +28,7 @@ export default function Login() {
       <div className="login">
           <div className="loginWrapper">
               <div className="loginLeft">
-                  <h3 className="loginLogo">NewComer</h3>
+                  <h3 className="loginLogo">Connectify</h3>
                   <span className="loginDesc">
                       Launch Your New Idea here and being Visible with Investors, Developers and Hub Companies.
                   </span>
